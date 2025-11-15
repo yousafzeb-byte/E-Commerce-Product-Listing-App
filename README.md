@@ -43,35 +43,6 @@ A modern React e-commerce app with shopping cart, search, filtering, and wishlis
 - `npm run preview` - Preview build
 - `npm run lint` - Code linting
 
----
-
-**Made with ❤️ by Yousaf**
-ecommerce-app/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── Cart.jsx # Shopping cart modal
-│ │ ├── Cart.css
-│ │ ├── ProductItem.jsx # Individual product card
-│ │ ├── ProductItem.css
-│ │ ├── ProductList.jsx # Product grid container
-│ │ ├── ProductList.css
-│ │ ├── SearchBar.jsx # Search functionality
-│ │ ├── SearchBar.css
-│ │ ├── PriceFilter.jsx # Price range filter
-│ │ ├── PriceFilter.css
-│ │ ├── SortOptions.jsx # Sorting dropdown
-│ │ └── SortOptions.css
-│ ├── App.jsx # Main application component
-│ ├── App.css # Global app styles
-│ ├── main.jsx # React application entry point
-│ └── index.css # CSS custom properties & globals
-├── package.json
-├── vite.config.js
-└── README.md
-
-````
-
 ## 🚀 Getting Started
 
 ### Prerequisites
