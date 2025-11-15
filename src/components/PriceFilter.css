@@ -1,0 +1,53 @@
+.price-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.price-filter label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+
+.price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.price-input {
+  width: 80px;
+  padding: 8px 10px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.price-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.15);
+}
+
+.price-separator {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.price-display {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-align: center;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .price-inputs {
+    justify-content: center;
+  }
+}
